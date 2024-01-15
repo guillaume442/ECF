@@ -9,9 +9,10 @@ body {
 .div {
     height: 100vh; /* Hauteur égale à 100% de la hauteur de la fenêtre d'affichage */
     width: 100vw;  /* Largeur égale à 100% de la largeur de la fenêtre d'affichage */
-    overflow-x: hidden; /* Cache le défilement horizontal si le contenu déborde */
     padding: 30px;
-    box-sizing: border-box; /* Ajouté ici */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-sizing: border-box;
 }
 
 #home {
@@ -22,23 +23,180 @@ body {
     /* background-color: #007EA7; */
     background-image: url(img/gpt_background1.png);
     background-size: cover;
+    background-position: center;
+    color: ghostwhite;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#chatgpt h1 {
+    font-size: 70px;
+    text-decoration: underline;
+}
+#chatgpt h3 {
+    margin-top: -46px;
+    font-size: 30px;
 }
 
 #gemini {
-    background-color: #62bbc5;
+    /* background-color: #62bbc5; */
+    background-image: url(img/speechify_background.png);
+    color: ghostwhite;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#gemini h1 {
+    font-size: 70px;
+    text-decoration: underline;
+}
+#gemini h3 {
+    margin-top: -40px;
+    font-size: 27px;
 }
 
 #midjourney {
     /* background-color: #a7dbde; */
     background-image: url(img/midjourney_background1.png);
     background-size: cover;
+    background-position: center;
+    color: ghostwhite;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+#midjourney h1 {
+    font-size: 70px;
+    text-decoration: underline;
+}
+#midjourney h3 {
+    margin-top: -40px;
+    font-size: 23px;
 }
 
 #runway {
-    background-color: #CCDBDC;
+    background-image: url(img/runway_background.png);
+    background-size: cover;
+    background-position: center;
+    color: ghostwhite;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+#runway h1 {
+    font-size: 70px;
+    text-decoration: underline;
+}
+#runway h3 {
+    margin-top: -40px;
+    font-size: 23px;
 }
 
 #autopilot {
-    background-color: #ffffff;
+    background-image: url(img/tesla-model-s-wallpaper-image.jpg);
+    background-size: cover;
+    background-position: center;
+    color: ghostwhite;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+#autopilot h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#autopilot h3 {
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+
+
+
+
+/* Style du Modal (background) */
+
+
+
+#btn1 {
+    border-radius: 50px;
+    width: 150px;
+    height: 75px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#btn2 {
+    border-radius: 50px;
+    width: 150px;
+    height: 75px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#btn3 {
+    border-radius: 50px;
+    width: 150px;
+    height: 75px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#btn4 {
+    border-radius: 50px;
+    width: 150px;
+    height: 75px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#btn5 {
+    border-radius: 50px;
+    width: 150px;
+    height: 75px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.modal {
+    display: none; /* Caché par défaut */
+    position: fixed; /* Reste en place même lors du scroll */
+    z-index: 1; /* Se situe au-dessus */
+    left: 0;
+    top: 0;
+    width: 100%; /* Pleine largeur */
+    height: 100%; /* Pleine hauteur */
+    overflow: auto; /* Permet le scroll si nécessaire */
+    background-color: rgb(0,0,0); /* Couleur de fond */
+    background-color: rgba(0,0,0,0.4); /* Noir avec opacité */
+}
+
+.modal img {
+    width: 750px;
+    height: 600px;
+}
+
+/* Style du contenu du Modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% du haut et centré horizontalement */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 75%; /* Largeur du contenu */
+}
+
+/* Bouton pour fermer le modal */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
