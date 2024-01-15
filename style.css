@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: "ubuntu";
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.div {
+    height: 100vh; /* Hauteur égale à 100% de la hauteur de la fenêtre d'affichage */
+    width: 100vw;  /* Largeur égale à 100% de la largeur de la fenêtre d'affichage */
+    overflow-x: hidden; /* Cache le défilement horizontal si le contenu déborde */
+    padding: 30px;
+    box-sizing: border-box; /* Ajouté ici */
+}
+
+#home {
+    background-color: #003249;
+}
+
+#chatgpt {
+    /* background-color: #007EA7; */
+    background-image: url(img/gpt_background1.png);
+    background-size: cover;
+}
+
+#gemini {
+    background-color: #62bbc5;
+}
+
+#midjourney {
+    /* background-color: #a7dbde; */
+    background-image: url(img/midjourney_background1.png);
+    background-size: cover;
+}
+
+#runway {
+    background-color: #CCDBDC;
+}
+
+#autopilot {
+    background-color: #ffffff;
+}
+
