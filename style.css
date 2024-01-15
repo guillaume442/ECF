@@ -16,8 +16,45 @@ body {
 }
 
 #home {
-    background-color: #003249;
+    background-image: url(img/background-ai-artificial-intelligence-wording-with-the-circuit-design-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    color: ghostwhite;
+    font-size: 25px;
+    font-weight: bold;
 }
+
+/* Style de la navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #33333370;
+    position: fixed; /* Fixé en haut de la page */
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Style des liens de la navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Changement de couleur au survol */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style du contenu principal */
+  .content {
+    margin-top: 60px; /* Ajoute une marge en haut pour ne pas que le contenu soit caché par la navbar */
+  }
+  
+  
 
 #chatgpt {
     /* background-color: #007EA7; */
