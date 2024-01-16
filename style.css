@@ -231,7 +231,7 @@ body {
     margin: 15% auto; /* 15% du haut et centré horizontalement */
     padding: 20px;
     border: 1px solid #888;
-    width: 75%; /* Largeur du contenu */
+    width: 90%; /* Largeur du contenu */
 }
 
 /* Bouton pour fermer le modal */
