@@ -22,11 +22,11 @@ body {
     color: ghostwhite;
     font-size: 25px;
     font-weight: bold;
-
+    align-content: center;
 }
 
 #home p {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 
@@ -249,3 +249,321 @@ body {
     cursor: pointer;
 }
 
+
+
+
+  
+
+
+
+/* responsive tablette :*/
+
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .div {
+        height: 100vh; /* Hauteur égale à 100% de la hauteur de la fenêtre d'affichage */
+        width: 100vw;  /* Largeur égale à 100% de la largeur de la fenêtre d'affichage */
+        padding: 30px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+    
+    #home {
+        background-image: url(img/background-ai-artificial-intelligence-wording-with-the-circuit-design-vector.jpg);
+        background-size: cover;
+        background-position: center;
+        color: ghostwhite;
+        font-size: 21px;
+        font-weight: bold;
+    
+    }
+    
+    #home p {
+        margin-top: 100px;
+    }
+    
+    /* Style de la navbar */
+    .navbar {
+        overflow: hidden;
+        background-color: #33333370;
+        position: fixed; /* Fixé en haut de la page */
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+      }
+      
+      /* Style des liens de la navbar */
+      .navbar a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      
+      /* Changement de couleur au survol */
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Style du contenu principal */
+      .content {
+        margin-top: 60px; /* Ajoute une marge en haut pour ne pas que le contenu soit caché par la navbar */
+      }    
+    
+    #chatgpt {
+        /* background-color: #007EA7; */
+        background-image: url(img/gpt_background1.png);
+        background-size: cover;
+        background-position: center;
+        color: ghostwhite;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    
+    #chatgpt h1 {
+        font-size: 70px;
+        text-decoration: underline;
+    }
+    #chatgpt h3 {
+        margin-top: -46px;
+        font-size: 30px;
+    }
+    
+    #gemini {
+        /* background-color: #62bbc5; */
+        background-image: url(img/speechify_background.png);
+        color: ghostwhite;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    #gemini h1 {
+        font-size: 70px;
+        text-decoration: underline;
+    }
+    #gemini h3 {
+        margin-top: -40px;
+        font-size: 27px;
+    }
+    
+    #midjourney {
+        /* background-color: #a7dbde; */
+        background-image: url(img/midjourney_background1.png);
+        background-size: cover;
+        background-position: center;
+        color: ghostwhite;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 0px;
+    }
+    
+    #midjourney h1 {
+        font-size: 70px;
+        text-decoration: underline;
+    }
+    #midjourney h3 {
+        margin-top: -40px;
+        font-size: 23px;
+    }
+    
+    #runway {
+        background-image: url(img/runway_background.png);
+        background-size: cover;
+        background-position: center;
+        color: ghostwhite;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 0px;
+    }
+    
+    #runway h1 {
+        font-size: 70px;
+        text-decoration: underline;
+    }
+    #runway h3 {
+        margin-top: -40px;
+        font-size: 23px;
+    }
+    
+    #autopilot {
+        background-image: url(img/tesla-model-s-wallpaper-image.jpg);
+        background-size: cover;
+        background-position: center;
+        color: ghostwhite;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 0px;
+    }
+    
+    #autopilot h1 {
+        font-size: 50px;
+        text-decoration: underline;
+    }
+    
+    #autopilot h3 {
+        margin-top: -20px;
+        font-size: 25px;
+    }
+}
+
+
+
+
+/* responsive mobile :*/
+
+
+@media screen and (max-width: 600px) {
+    .div {
+        height: 100vh; /* Hauteur égale à 100% de la hauteur de la fenêtre d'affichage */
+        width: 100vw;  /* Largeur égale à 100% de la largeur de la fenêtre d'affichage */
+        padding: 10px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+    
+    #home {
+        background-image: url(img/background-ai-artificial-intelligence-wording-with-the-circuit-design-vector.jpg);
+        background-size: cover;
+        background-position: center;
+        color: ghostwhite;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    
+    #home p {
+        margin-top: 75px;
+    }
+    
+    /* Style de la navbar */
+    .navbar {
+        overflow: hidden;
+        background-color: #33333370;
+        position: fixed; /* Fixé en haut de la page */
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
+      }
+      
+      /* Style des liens de la navbar */
+      .navbar a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 13px;
+      }
+      
+      /* Changement de couleur au survol */
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Style du contenu principal */
+      .content {
+        margin-top: 60px; /* Ajoute une marge en haut pour ne pas que le contenu soit caché par la navbar */
+      }
+    
+    #chatgpt {
+        /* background-color: #007EA7; */
+        background-image: url(img/gpt_background1.png);
+        background-size: cover;
+        background-position: center;
+        color: ghostwhite;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    
+    #chatgpt h1 {
+        font-size: 70px;
+        text-decoration: underline;
+    }
+    #chatgpt h3 {
+        margin-top: -46px;
+        font-size: 30px;
+    }
+    
+    #gemini {
+        /* background-color: #62bbc5; */
+        background-image: url(img/speechify_background.png);
+        color: ghostwhite;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    
+    #gemini h1 {
+        font-size: 70px;
+        text-decoration: underline;
+    }
+    #gemini h3 {
+        margin-top: -40px;
+        font-size: 27px;
+    }
+    
+    #midjourney {
+        /* background-color: #a7dbde; */
+        background-image: url(img/midjourney_background1.png);
+        background-size: cover;
+        background-position: center;
+        color: ghostwhite;
+        font-size: 19px;
+        font-weight: bold;
+        padding-top: 100px;
+    }
+    
+    #midjourney h1 {
+        font-size: 70px;
+        text-decoration: underline;
+    }
+    #midjourney h3 {
+        margin-top: -40px;
+        font-size: 23px;
+    }
+    
+    #runway {
+        background-image: url(img/runway_background.png);
+        background-size: cover;
+        background-position: center;
+        color: ghostwhite;
+        font-size: 19px;
+        font-weight: bold;
+        padding-top: 0px;
+    }
+    
+    #runway h1 {
+        font-size: 70px;
+        text-decoration: underline;
+    }
+    #runway h3 {
+        margin-top: -40px;
+        font-size: 23px;
+    }
+    
+    #autopilot {
+        background-image: url(img/tesla-model-s-wallpaper-image.jpg);
+        background-size: cover;
+        background-position: center;
+        color: ghostwhite;
+        font-size: 19px;
+        font-weight: bold;
+        padding-top: 0px;
+    }
+    
+    #autopilot h1 {
+        font-size: 50px;
+        text-decoration: underline;
+    }
+    
+    #autopilot h3 {
+        margin-top: -20px;
+        font-size: 25px;
+    }
+}
