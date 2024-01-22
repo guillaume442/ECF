@@ -20,13 +20,13 @@ body {
     background-size: cover;
     background-position: center;
     color: ghostwhite;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     align-content: center;
 }
 
 #home p {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 
@@ -74,12 +74,12 @@ body {
     background-size: cover;
     background-position: center;
     color: ghostwhite;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 #chatgpt h1 {
-    font-size: 70px;
+    font-size: 61px;
     text-decoration: underline;
 }
 #chatgpt h3 {
@@ -91,7 +91,7 @@ body {
     /* background-color: #62bbc5; */
     background-image: url(img/speechify_background.png);
     color: ghostwhite;
-    font-size: 25px;
+    font-size: 21px;
     font-weight: bold;
 }
 
@@ -110,7 +110,7 @@ body {
     background-size: cover;
     background-position: center;
     color: ghostwhite;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     padding-top: 0px;
 }
@@ -129,7 +129,7 @@ body {
     background-size: cover;
     background-position: center;
     color: ghostwhite;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     padding-top: 0px;
 }
@@ -148,7 +148,7 @@ body {
     background-size: cover;
     background-position: center;
     color: ghostwhite;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
     padding-top: 0px;
 }
@@ -276,13 +276,13 @@ body {
         background-size: cover;
         background-position: center;
         color: ghostwhite;
-        font-size: 21px;
+        font-size: 16px;
         font-weight: bold;
     
     }
     
     #home p {
-        margin-top: 100px;
+        margin-top: 50px;
     }
     
     /* Style de la navbar */
@@ -322,24 +322,24 @@ body {
         background-size: cover;
         background-position: center;
         color: ghostwhite;
-        font-size: 19px;
+        font-size: 14px;
         font-weight: bold;
     }
     
     #chatgpt h1 {
-        font-size: 70px;
+        font-size: 50px;
         text-decoration: underline;
     }
     #chatgpt h3 {
-        margin-top: -46px;
-        font-size: 30px;
+        margin-top: -40px;
+        font-size: 25px;
     }
     
     #gemini {
         /* background-color: #62bbc5; */
         background-image: url(img/speechify_background.png);
         color: ghostwhite;
-        font-size: 25px;
+        font-size: 17px;
         font-weight: bold;
     }
     
@@ -358,18 +358,18 @@ body {
         background-size: cover;
         background-position: center;
         color: ghostwhite;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
         padding-top: 0px;
     }
     
     #midjourney h1 {
-        font-size: 70px;
+        font-size: 50px;
         text-decoration: underline;
     }
     #midjourney h3 {
         margin-top: -40px;
-        font-size: 23px;
+        font-size: 20px;
     }
     
     #runway {
@@ -377,13 +377,13 @@ body {
         background-size: cover;
         background-position: center;
         color: ghostwhite;
-        font-size: 20px;
+        font-size: 14px;
         font-weight: bold;
         padding-top: 0px;
     }
     
     #runway h1 {
-        font-size: 70px;
+        font-size: 55px;
         text-decoration: underline;
     }
     #runway h3 {
@@ -396,19 +396,19 @@ body {
         background-size: cover;
         background-position: center;
         color: ghostwhite;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
         padding-top: 0px;
     }
     
     #autopilot h1 {
-        font-size: 50px;
+        font-size: 40px;
         text-decoration: underline;
     }
     
     #autopilot h3 {
         margin-top: -20px;
-        font-size: 25px;
+        font-size: 15px;
     }
 }
 
@@ -433,7 +433,7 @@ body {
         background-size: cover;
         background-position: center;
         color: ghostwhite;
-        font-size: 19px;
+        font-size: 15px;
         font-weight: bold;
     }
     
@@ -478,34 +478,34 @@ body {
         background-size: cover;
         background-position: center;
         color: ghostwhite;
-        font-size: 19px;
+        font-size: 14px;
         font-weight: bold;
     }
     
     #chatgpt h1 {
-        font-size: 70px;
+        font-size: 50px;
         text-decoration: underline;
     }
     #chatgpt h3 {
-        margin-top: -46px;
-        font-size: 30px;
+        margin-top: -40px;
+        font-size: 25px;
     }
     
     #gemini {
         /* background-color: #62bbc5; */
         background-image: url(img/speechify_background.png);
         color: ghostwhite;
-        font-size: 19px;
+        font-size: 16px;
         font-weight: bold;
     }
     
     #gemini h1 {
-        font-size: 70px;
+        font-size: 50px;
         text-decoration: underline;
     }
     #gemini h3 {
         margin-top: -40px;
-        font-size: 27px;
+        font-size: 25px;
     }
     
     #midjourney {
@@ -514,18 +514,17 @@ body {
         background-size: cover;
         background-position: center;
         color: ghostwhite;
-        font-size: 19px;
+        font-size: 14px;
         font-weight: bold;
-        padding-top: 100px;
     }
     
     #midjourney h1 {
-        font-size: 70px;
+        font-size: 45px;
         text-decoration: underline;
     }
     #midjourney h3 {
         margin-top: -40px;
-        font-size: 23px;
+        font-size: 15px;
     }
     
     #runway {
@@ -533,18 +532,17 @@ body {
         background-size: cover;
         background-position: center;
         color: ghostwhite;
-        font-size: 19px;
+        font-size: 13px;
         font-weight: bold;
-        padding-top: 0px;
     }
     
     #runway h1 {
-        font-size: 70px;
+        font-size: 50px;
         text-decoration: underline;
     }
     #runway h3 {
         margin-top: -40px;
-        font-size: 23px;
+        font-size: 20px;
     }
     
     #autopilot {
@@ -552,18 +550,18 @@ body {
         background-size: cover;
         background-position: center;
         color: ghostwhite;
-        font-size: 19px;
+        font-size: 14px;
         font-weight: bold;
         padding-top: 0px;
     }
     
     #autopilot h1 {
-        font-size: 50px;
+        font-size: 35px;
         text-decoration: underline;
     }
     
     #autopilot h3 {
         margin-top: -20px;
-        font-size: 25px;
+        font-size: 15px;
     }
 }
