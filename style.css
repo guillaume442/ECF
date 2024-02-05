@@ -232,19 +232,19 @@ body {
 
 /* Style du contenu du Modal */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #fefefe00;
     margin: 15% auto; /* 15% du haut et centré horizontalement */
     padding: 20px;
-    border: 1px solid #888;
     width: 90%; /* Largeur du contenu */
 }
 
 /* Bouton pour fermer le modal */
 .close {
-    color: #aaa;
+    color: #3a3838;
     float: right;
-    font-size: 28px;
+    font-size: 80px;
     font-weight: bold;
+    background-color: #f9f9f9;
 }
 
 .close:hover,
@@ -425,8 +425,6 @@ body {
         font-size: 15px;
     }
 }
-
-
 
 
 /* responsive mobile :*/
