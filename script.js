@@ -29,3 +29,17 @@ window.onclick = function(event) {
     attachModalEvents("modal4", "btn4");
     attachModalEvents("modal5", "btn5");
 
+    document.addEventListener('DOMContentLoaded', function () {
+        var menu = document.querySelector('.burger-menu-container');
+        menu.addEventListener('click', function () {
+            var navMenu = document.getElementById('navMenu');
+            if (navMenu.style.display === 'block') {
+                navMenu.style.display = 'none';
+            } else {
+                navMenu.style.display = 'block';
+            }
+        });
+    });
+    
+    
+
